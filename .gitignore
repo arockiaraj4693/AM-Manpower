@@ -1,0 +1,31 @@
+# --- Common ---
+*.log
+logs/
+tmp/
+temp/
+.DS_Store
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.example
+
+# --- Backend specific ---
+backend/node_modules/
+backend/logs/
+backend/.env
+
+# --- Frontend specific ---
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+
+# --- Testing ---
+coverage/
